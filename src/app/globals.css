@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #fafafa;
+  --muted: #a1a1aa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background-color: #050506;
+  background-image: theme("backgroundImage.noise");
+}
+
+::selection {
+  background: #ef4444;
+  color: #0a0a0b;
+}
