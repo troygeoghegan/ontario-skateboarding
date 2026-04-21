@@ -27,3 +27,11 @@ yarn-error.log*
 
 # env
 .env*.local
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Scraped / imported media — regenerate locally via scripts/ (see README)
+/public/imported/*
+!/public/imported/manifest.json
+!/public/imported/.gitkeep
